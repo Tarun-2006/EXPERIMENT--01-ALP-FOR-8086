@@ -1,11 +1,10 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name : RANJANI A
+Name : Tarun S
 
 
-Roll no : 212223230170
+Roll no : 212223040226
 
 
-Date of experiment : 11/03/2024
 
 
 
