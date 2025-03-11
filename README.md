@@ -84,7 +84,7 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 ## Programs for arithmetic  operations
-
+## Arithmetic Operations of 8 bit numbers ALP
 ```
 org 100h
 
@@ -116,8 +116,36 @@ ret
 
 
 ```
+## Logical Operations of 2 bit numbers ALP
+```
+org 100h
+
+MOV AL, 02H  
+MOV BL, 03H 
+AND AL, BL  
+MOV [4000H], AL
+
+MOV AL, 01H  
+MOV BL, 02H  
+OR AL, BL   
+MOV [4010H], AL
+
+MOV AL, 03H 
+NOT AL       
+MOV [4020H], AL
+
+MOV AL, 02H  
+MOV BL, 01H  
+XOR AL, BL  
+MOV [4030H], AL
+
+ret
+```
 ## Output  
+## Arithmetic Operation
 ![Screenshot 2025-03-11 103303](https://github.com/user-attachments/assets/45739ee5-09c1-4d3a-9d23-6f1c8de3c0dc)
+## Logical Operation
+![Screenshot 2025-03-11 105702](https://github.com/user-attachments/assets/dc2cd53b-b7f9-496a-97d6-d9e31d54433e)
 
 
 ## Result :
